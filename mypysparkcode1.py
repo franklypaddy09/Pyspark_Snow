@@ -24,8 +24,7 @@ Res=(df.withColumn('_id_$oid',col('_id.$oid')).drop('_id')\
     .withColumn('sector1_Name',col('sector1.Name')).withColumn('sector1Percent',col('sector1.percent')).drop('sector1')\
     .withColumn('sector2_Name',col('sector2.Name')).withColumn('sector2_Percent',col('sector2.Percent')).drop('sector2')\
     .withColumn('sector3_Name',col('sector3.Name')).withColumn('sector3_Percent',col('sector3.Percent')).drop('sector3')\
-    .withColumn('sector4_Name',col('sector4.Name')).withColumn('sector4_Percent',col('sector4.Percent')).drop('sector4')\
-    .withColumn('theme1_Name',col('theme1.Name')).withColumn('theme1_Percent',col('theme1.Percent')).drop('theme1'))
+    .withColumn('sector4_Name',col('sector4.Name')).withColumn('sector4_Percent',col('sector4.Percent')).drop('sector4')
 
 
 
